@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    
+}
+ 
+a {
+   text-decoration: none;
+   color: #fff; 
+   font-size: 14px;
+   line-height: 21px;
+}
+
+li {
+    list-style: none;
+}
+
+.top-section {
+    background: url(/images/bg-curvy-desktop.svg), hsl(219, 30%, 15%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+nav .nav-bar {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.top .top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-content .imgwrap {
+    max-width: 60%;
+}
+
+
+.top-content .top-img {
+  max-width: 100%;
+}
+
+.top-content .text-content {
+    justify-content: center;
+    text-align: center;
+    max-width: 50%;
+    margin: 2rem;
+}
+
+.text-content h1 {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.text-content p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 1.5rem;
+}
+
+.text-content span {
+    background:hsl(198, 60%, 50%);
+    padding: 8px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+/* End of Top Section */
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background:hsl(218, 28%, 13%);
+}
+
+.main-section .grid-content {
+    display:  grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 5rem;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin: 60px;
+}
+
+.contents .text-content > h2 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.contents .text-content > p {
+    font-size: 15px;
+    color: #fff;
+}
+
+.productive {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 30px;
+    padding: 35px;
+}
+
+.productive .imgwrap {
+    text-align: center;
+    width: 100%;
+}
+
+.productive .imgwrap img{
+    max-width: 70%;
+}
+
+.productive .txt-content {
+    text-align: start;
+    width: 100%;
+}
+
+.productive .txt-content h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.productive .txt-content p {
+    color: #fff;
+    font-weight: 100;
+}
+
+.productive .txt-content a {
+    color: hsl(176, 68%, 64%);
+    font-weight: 100;
+}
+
+.main-section .testimonies {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 30px 0 99px 0;
+}
+
+.main-section .testimonies .quotes {
+    width: 20%;
+    height: 50px;
+}
+
+.testimonies .testimony {
+    display: flex;
+    flex-direction: column;
+    background: hsl(219, 30%, 18%);
+    margin: 20px;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.testimonies .testimony p {
+    color: #fff;
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+.testimony .profile {
+    display: flex;
+}
+
+.testimony .profile div {
+    width: 15%;
+    text-align: center;
+    transform: translateY(10%);
+}
+
+.testimony .profile img {
+    width: 25%;
+    border-radius: 50%;
+    height: 20px;
+}
+
+.testimony .profile p {
+    color: #fff;
+    font-size: 8px;
+}
+footer {
+    background: hsl(216, 53%, 9%); 
+}
+
+.footer-sect{
+    padding: 50px; 
+}
+
+.footer-sect .f-logo {
+    margin-bottom: 18px;
+}
+
+.footer-sect .flex-container {
+    display: flex;
+}
+
+.footer-sect .content {
+    width: 50%;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+}
+
+.footer-sect .info {
+    text-align: start;
+}
+
+.footer-sect .contact span {
+    display: block;
+    margin: 3px  0;
+}
+
+.about-us, .contact-us {
+    margin-left: 20px;
+}
+
+.footer-sect .contact span img {
+    float: left;
+}
+
+.footer-sect .flex-container li {
+    margin: 5px 0; 
+    text-align: start;
+}
+
+.footer-sect .icons {
+    width: 25px;
+    margin: 25px 0;
+}
+
+.sign-form {
+    background: hsl(219, 30%, 15%);
+    width: 45%;
+    position: absolute;
+    top: 93%;
+    /* padding: 25px; */
+}
+
+.sign-form .sign-up {
+    text-align: center;
+    padding: 20px;
+}
+
+.sign-form .sign-up h1 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.sign-form .sign-up p {
+    color: #fff;
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+input[type="email"], input[type="submit"] {
+    padding: 8.5px 30px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+input[type="submit"] {
+    padding: 8px 18px;
+    background :hsl(198, 60%, 48%) ;
+    color: #fff;
+}
+
+
+
+
+
+
